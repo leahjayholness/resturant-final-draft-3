@@ -1,54 +1,56 @@
-/* NAVBAR */
-/* Style for the logo image inside the navbar brand */
-.navbar-brand img {
-    background-color: rgb(202, 202, 202); /* Light gray background color for the logo */
-    border-radius: 50%; /* Makes the image circular */
+/*NAVBAR*/
+.navbar-brand img{
+    background-color:rgb(202, 202, 202);
+    border-radius: 50%;
 }
 
-/* Hover effect for the navbar brand */
-.navbar-brand:hover {
-    color: rgb(202, 202, 202); /* Changes text color to light gray when hovered */
+.navbar-brand:hover{
+    color:rgb(202, 202, 202);
 }
 
-/* Styles for the custom navbar */
-.mynavbar {
-    background-color: black; /* Sets the navbar background to black */
+.mynavbar{
+    background-color:black;
+}
+
+.navbar-brand{
+    color: rgb(202, 202, 202);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202, 202, 202, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .mytab.nav-link.active{
     background-color:black;
 }
 
-/* Default style for the navbar brand text */
-.navbar-brand {
-    color: rgb(202, 202, 202); /* Sets the text color to light gray */
+.mytab.nav-link:hover{
+    color:rgb(202, 202, 202);
 }
 
-/* Custom styles for the navbar toggle icon */
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202, 202, 202, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    /* Custom icon with light gray stroke for the toggle button */
+.nav-link{ 
+    color: rgb(202, 202, 202);
+    margin-left: 10px;
 }
 
-/* Hover effect for tabs in the navbar */
-.mytab.nav-link:hover {
-    color: rgb(202, 202, 202); /* Changes the text color to light gray on hover */
+.my-nav-link:hover{
+    color:grey;
 }
 
-/* Default style for all links in the navbar */
-.nav-link {
-    color: rgb(202, 202, 202); /* Sets the text color to light gray */
-    margin-left: 10px; /* Adds spacing between links */
+
+
+
+
+
+
+/*SLIDESHOW*/
+.carousel-item img{
+    object-fit: cover;
+    overflow:hidden;
 }
 
-.nav-link.my-nav-link.active {
-    color: rgb(202, 202, 202); /* Sets the text color to light gray */
-    margin-left: 10px; /* Adds spacing between links */
-}
-
-/* Hover effect for specific navbar links */
-.my-nav-link:hover {
-    color: grey; /* Changes the text color to gray when hovered */
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);;
 }
 
 
@@ -58,72 +60,43 @@
 
 
 
-
-
-
-/* SLIDESHOW */
-/* Style for images in the carousel items */
-.carousel-item img {
-    object-fit: cover; /* Ensures the image covers its container */
-    overflow: hidden; /* Prevents content from spilling outside */
+/*MENU*/
+.menu-title{
+    color: black;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: xxx-large;
 }
 
-/* Styles for the caption in the carousel */
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background for better readability */
+.item-price{
+    color: #dc002a;
+    font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
-/* MENU */
-/* Styles for the menu title */
-.menu-title {
-    color: black; /* Sets the text color to black */
-    padding-top: 30px; /* Adds space above the title */
-    font-weight: 700; /* Makes the font bold */
-    font-size: xxx-large; /* Sets an extra-large font size */
+.card-header .nav-link{
+    color:black;
 }
 
-/* Styles for item prices in the menu */
-.item-price {
-    color: #dc002a; /* Sets the text color to a bright red */
-    font-size: 16px; /* Sets the font size */
+.card img{
+    object-fit: cover;
+    overflow:hidden;
+    border-radius: 50%;
+    width: 300px;
+    height:300px;
 }
 
-/* Styles for navigation links inside card headers */
-.card-header .nav-link {
-    color: black; /* Sets the text color to black */
+.btn-checkout{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Styles for images inside cards */
-.card img {
-    object-fit: cover; /* Ensures the image covers its container */
-    overflow: hidden; /* Prevents content from spilling outside */
-    border-radius: 50%; /* Makes the image circular */
-    width: 300px; /* Sets a fixed width for the image */
-    height: 300px; /* Sets a fixed height for the image */
-}
-
-/* Styles for the checkout button */
-.btn-checkout {
-    background-color: #dc002a; /* Sets the background color to bright red */
-    color: white; /* Sets the text color to white */
-    padding-left: 50px; /* Adds padding on the left */
-    padding-right: 50px; /* Adds padding on the right */
-    padding-top: 10px; /* Adds padding on the top */
-    padding-bottom: 10px; /* Adds padding on the bottom */
-}
-
-/* Hover effect for the checkout button */
-.btn-checkout:hover {
-    background-color: #3f762c; /* Changes the background color to green when hovered */
-    color: white; /* Keeps the text color white */
+.btn-checkout:hover{
+    background-color: #3f762c;
+    color: white;
 }
 
 
@@ -141,228 +114,136 @@
 
 
 
-/* RESERVATION */
-/* Styles for social media links inside a 'social' container */
-.social a {
-    padding: 20px; /* Adds space around each link for better clickability */
-    color: #6d6c6d; /* Sets the text color to a medium gray */
-    font-size: 1.1rem; /* Increases font size for readability */
+/*RESERVATION*/
+.social a{
+	padding: 20px;
+	color:#6d6c6d;
+	font-size:1.1rem;
+}
+#reservation{
+	position: relative;
+    justify-content: center;
+	display: flex;
+	align-items: center;
+    margin-top: 100px;
+}
+.social{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.social a:hover{
+	color:black;
+	transition: all ease 0.3s;
+}
+.contact-box{
+	background-color:#afafaf;
+	display: flex;
+    margin-bottom: 30px;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px 30px;
+	box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+}
+.c-heading h1{
+	color:black;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin: 0px;
+	padding: 0px;
+    text-align: center;
+}
+.c-heading p{
+	color:#fff;
+	font-size: 0.8rem;
+	font-weight: light;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
 }
 
-/* Styles for the reservation container */
-#reservation {
-    position: relative; /* Enables positioning of child elements relative to this container */
-    justify-content: center; /* Centers child elements horizontally */
-    display: flex; /* Enables flexbox layout */
-    align-items: center; /* Centers child elements vertically */
-    margin-top: 100px; /* Adds space above the reservation section */
+.address{
+	margin-bottom: 20px;
 }
 
-/* Styles for the social media container */
-.social {
-    display: flex; /* Enables flexbox layout */
-    flex-direction: column; /* Stacks children vertically */
-    justify-content: center; /* Centers children horizontally */
-    align-items: center; /* Centers children vertically */
-    background-color: #FFFFFF; /* Sets the background color to white */
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+.address h3{
+    text-align: left;
+    margin-top: 20px;
+    color:#F7941D;
+    font-size: 29px;
 }
 
-/* Hover effect for social media links */
-.social a:hover {
-    color: black; /* Changes the link color to black on hover */
-    transition: all ease 0.3s; /* Smooth transition effect for hover */
+.address p{
+    max-width: 260px;
+    font-size: 15px;
+    color: #F9EBCF;
 }
 
-/* Styles for the contact box */
-.contact-box {
-    background-color: #afafaf; /* Light gray background color */
-    display: flex; /* Enables flexbox layout */
-    margin-bottom: 30px; /* Adds space below the contact box */
-    flex-direction: column; /* Stacks children vertically */
-    justify-content: center; /* Centers children vertically */
-    padding: 30px 30px; /* Adds padding inside the box */
-    box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+.opening-hours{
+    margin-bottom: 20px;
 }
 
-/* Heading styles inside the contact box */
-.c-heading h1 {
-    color: black; /* Black text color */
-    font-size: 2.5rem; /* Large font size for emphasis */
-    font-weight: 600; /* Semi-bold text */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    text-align: center; /* Centers the text */
+.opening-hours h3{
+    text-align: left;
+    margin-top: 20px;
+    color:#F7941D;
+    font-size: 29px;
 }
 
-/* Subheading styles inside the contact box */
-.c-heading p {
-    color: #fff; /* White text color */
-    font-size: 0.8rem; /* Smaller font size for less emphasis */
-    font-weight: light; /* Lighter text weight */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    text-align: center; /* Centers the text */
+.opening-hours p{
+    max-width: 260px;
+    font-size: 15px;
+    color: #F9EBCF;
 }
 
-/* Styles for the map section */
-.map {
-    filter: grayscale(0.2); /* Adds a slight grayscale effect */
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
-    border: 2px solid #FFFFFF; /* White border around the map */
+.map{
+	filter: grayscale(0.2);
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border: 2px solid #FFFFFF;
+}
+@media(max-width:1000px){
+	.map{
+		display: none;
+	}
+}
+@media(max-width:450px){
+	.social{
+		display: none;
+	}
+	.contact-box{
+		width: 100%;
+		height: 100vh;
+		box-sizing: border-box;
+	}
+	#contact{
+		position: static;
+		transform: translate(0,0);
+		width:100%;
+		height: 100vh;
+		box-sizing: border-box;
+	}
+	.c-heading h1{
+		font-size: 2.2rem;
+		text-align: center;
+	}
+	
 }
 
-/* Responsive styles for devices with max-width of 1000px */
-@media (max-width: 1000px) {
-    .map {
-        display: none; /* Hides the map on smaller screens */
-    }
+.reservation-btn{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Responsive styles for devices with max-width of 450px */
-@media (max-width: 450px) {
-    .social {
-        display: none; /* Hides the social section on very small screens */
-    }
-    .contact-box {
-        width: 100%; /* Makes the contact box full-width */
-        height: 100vh; /* Sets the height to fill the viewport */
-        box-sizing: border-box; /* Ensures padding is included in height and width */
-    }
-    #contact {
-        position: static; /* Resets positioning */
-        transform: translate(0, 0); /* Removes any transformation */
-        width: 100%; /* Full-width for small screens */
-        height: 100vh; /* Full-height for small screens */
-        box-sizing: border-box; /* Ensures padding is included in height and width */
-    }
-    .c-heading h1 {
-        font-size: 2.2rem; /* Adjusts font size for smaller screens */
-        text-align: center; /* Centers the text */
-    }
-}
-
-/* Styles for the reservation button */
-.reservation-btn {
-    background-color: #dc002a; /* Bright red background color */
-    color: white; /* White text color */
-    padding-left: 50px; /* Adds space to the left */
-    padding-right: 50px; /* Adds space to the right */
-    padding-top: 10px; /* Adds space to the top */
-    padding-bottom: 10px; /* Adds space to the bottom */
-}
-
-/* Hover effect for the reservation button */
-.reservation-btn:hover {
-    background-color: #3f762c; /* Changes background to green on hover */
-    color: white; /* Keeps the text color white */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SIGN UP */
-/* Styles for the create account button */
-.create_account_button {
-    background-color: #dc002a; /* Bright red background color */
-    color: white; /* White text color */
-    padding-left: 50px; /* Adds space to the left */
-    padding-right: 50px; /* Adds space to the right */
-    padding-top: 10px; /* Adds space to the top */
-    padding-bottom: 10px; /* Adds space to the bottom */
-}
-
-/* Hover effect for the create account button */
-.create_account_button:hover {
-    background-color: #3f762c; /* Changes background to green on hover */
-    color: white; /* Keeps the text color white */
-}
-
-
-
-
-
-
-
-
-/* SIGN IN */
-/* Styles for the sign-in button */
-.sign_in_button {
-    background-color: #dc002a; /* Bright red background color */
-    color: white; /* White text color */
-    padding-left: 50px; /* Adds space to the left of the button */
-    padding-right: 50px; /* Adds space to the right of the button */
-    padding-top: 10px; /* Adds space to the top */
-    padding-bottom: 10px; /* Adds space to the bottom */
-    border: none; /* Removes the button border */
-}
-
-/* Hover effect for the sign-in button */
-.sign_in_button:hover {
-    background-color: #3f762c; /* Changes background to green on hover */
-    color: white; /* Keeps the text color white */
-}
-
-
-
-
-
-
-
-
-
-
-
-/* SHOPPING CART */
-/* Style for the view order section */
-.Veiw-order {
-    border: #3f762c; /* Border with green color */
-    box-shadow: #6d6c6d; /* Soft gray shadow around the box */
-}
-
-/* Container for the order to payment map */
-.order-to-payment-map {
-    text-align: center; /* Centers the text */
-    padding-top: 30px; /* Adds space at the top */
-    margin-bottom: 10px; /* Adds space at the bottom */
-}
-
-/* Styles for links in the order to payment map section */
-.order-to-payment-map a {
-    text-decoration: none; /* Removes underline from links */
-    color: #3f762c; /* Green text color */
-}
-
-/* Title styling for the order section */
-.order-title {
-    font-weight: 600; /* Semi-bold text */
-}
-
-/* Styling for the number of items in the cart */
-.num-items-in-cart {
-    color: #979797; /* Gray text color */
-}
-
-/* Styling for product images in the order section */
-.order-product img {
-    border-radius: 50%; /* Makes images round */
-    width: 100px; /* Sets a fixed width for the images */
-    height: 100px; /* Sets a fixed height for the images */
-}
-
-/* Styles for the "Make Purchase" button */
-.make-purchase-button {
-    color: white; /* White text color */
-    background-color: #dc002a; /* Red background color */
+.reservation-btn:hover{
+    background-color: #3f762c;
+    color: white;
 }
 
 
@@ -377,96 +258,191 @@
 
 
 
-/* PAYMENT */
-/* Styles for the active payment map */
-#payment-map-active {
-    color: #6d6c6d; /* Gray text color */
+
+
+/* SIGN UP*/
+.create_account_button{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Title styling for the payment section */
-.payment-title {
-    text-align: center; /* Centers the text */
-    font-weight: 800; /* Extra-bold text */
+.create_account_button:hover{
+    background-color: #3f762c;
+    color: white;
 }
 
-/* Subtitle styling for the payment section */
-.payment-subtitle {
-    text-align: center; /* Centers the text */
+
+
+
+
+
+
+
+
+/*SIGN IN*/
+.sign_in_button{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
 }
 
-/* Title styling for the payment details section */
-.payment-details-title {
-    color: #6d6c6d; /* Gray text color */
-    font-weight: 900; /* Ultra-bold text */
+.sign_in_button:hover{
+    background-color: #3f762c;
+    color: white;
 }
 
-/* Title styling for the billing address section */
-.billing-address-title {
-    color: #6d6c6d; /* Gray text color */
-    font-weight: 900; /* Ultra-bold text */
-    margin-top: 40px; /* Adds space above the title */
+
+
+
+
+
+/*SHOPPING CART*/
+.Veiw-order{
+    border: #3f762c;
+    box-shadow: #6d6c6d;
 }
 
-/* Styling for the link to the previous step */
-.ckeckout-previous-step {
-    color: #dc002a; /* Red text color */
-    text-decoration: none; /* Removes underline */
+
+.order-to-payment-map{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
 }
 
-/* Styles for a blue background card */
-.card-blue {
-    background-color: #848484; /* Gray-blue background color */
+.order-to-payment-map a{
+    text-decoration: none;
+    color: #3f762c;
 }
 
-/* Highlight section with background and padding */
-.hightlight {
-    text-align: center; /* Centers the text */
-    background-color: #979797; /* Light gray background color */
-    padding: 10px; /* Adds padding inside the highlight section */
-    border-radius: 10px; /* Rounded corners */
-    margin-top: 15px; /* Adds space above the highlight section */
-    font-size: 14px; /* Smaller font size */
+.order-title{
+    font-weight: 600;
 }
 
-/* Styling for the total section */
-.total {
-    color: black; /* Black text color */
+.num-items-in-cart{
+    color: #979797;
 }
 
-/* Styling for the section below the total */
-.below-total {
-    text-align: center; /* Centers the text */
+.order-product img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
-/* Link decoration styling */
-.decoration {
-    text-decoration: none; /* Removes underline */
-    font-size: 14px; /* Smaller font size */
+.make-purchase-button{
+    color: white;
+    background-color: #dc002a;
 }
 
-/* Success button styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PAYMENT*/
+#payment-map-active{
+    color: #6d6c6d;
+}
+
+.payment-title{
+    text-align: center;
+    font-weight: 800;
+}
+
+.payment-subtitle{
+    text-align: center;
+}
+
+.payment-details-title{
+    color:#6d6c6d;
+    font-weight: 900;
+}
+
+.billing-address-title{
+    color:#6d6c6d;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.ckeckout-previous-step{
+    color: #dc002a;
+    text-decoration: none;
+}
+
+
+.card-blue{
+    background-color:#848484;
+}
+
+.hightlight{
+    text-align: center;
+    background-color: #979797;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.total{
+    color:black; 
+}
+
+.below-total{
+    text-align: center;
+}
+
+.decoration{
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
 .btn-success {
-    color: #fff; /* White text color */
-    background-color: #3f762c; /* Green background color */
-    border-color: #3f762c; /* Green border color */
+    color: #fff;
+    background-color:#3f762c;
+    border-color:#3f762c;
 }
 
-/* Hover effect for the success button */
 .btn-success:hover {
-    color: #fff; /* Keeps the text color white */
-    background-color: #3f762c; /* Keeps the green background on hover */
-    border-color: #3f762c; /* Keeps the green border color on hover */
+    color: #fff;
+    background-color:#3f762c;
+    border-color:#3f762c;
 }
 
-/* Styles for the link to the previous step in the checkout process */
-.order-previous-step {
-    color: #dc002a; /* Red text color */
-    text-decoration: none; /* Removes underline */
-    text-align: right; /* Aligns the text to the right */
-    padding-left: 45%; /* Adds space on the left to push the text to the right */
+.order-previous-step{
+    color: #dc002a;
+    text-decoration: none;
+    text-align: right;
+    padding-left: 45%;
 }
 
-/* Styling for the checkout button */
-.checkout-button {
-    margin-left: 5%; /* Adds space to the left of the button */
+.checkout-button{
+    margin-left: 5%;
 }
+
+
+
+
+
+
+
+
+

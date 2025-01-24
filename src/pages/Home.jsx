@@ -85,7 +85,7 @@ const Home = () => {
                                     <button className="order-now-btn btn btn-secondary"> Order Now <i className="fa-solid fa-cart-arrow-down" style={{color: "#ffffff"}}></i> </button>
                                 </div>
                             </div>                 
-                            <Link to="/order" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
+                            <Link to="view_order.html" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
                         </div>
                         <div className="card-body tab-pane fade" id="main-tab-pane" role="tabpanel" aria-labelledby="main-tab" tabIndex="0">
                             <h3 className="card-title">Main Dishes</h3>
@@ -157,7 +157,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link to="/order" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
+                            <Link to="view_order.html" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
                         </div>
                         <div className="card-body tab-pane fade" id="side-tab-pane" role="tabpanel" aria-labelledby="side-tab" tabIndex="0">
                             <h3 className="card-title">Side Dishes</h3>
@@ -229,7 +229,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link to="/order" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
+                            <Link to="view_order.html" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
                         </div>
                         <div className="card-body tab-pane fade" id="beverage-tab-pane" role="tabpanel" aria-labelledby="beverage-tab" tabIndex="0">
                             <h3 className="card-title">Beverages</h3>
@@ -301,7 +301,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link to="/order" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
+                            <Link to="view_order.html" className="btn btn-checkout"><i className="fa-solid fa-cart-shopping" style={{color: "#ffffff"}}></i>Go To Checkout</Link>
                         </div>
                     </div>
                 </div>
